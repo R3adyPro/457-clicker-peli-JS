@@ -58,7 +58,6 @@ function Wing(){
     if(raha >= wHinta){
         raha = raha - wHinta;
         wHinta = wHinta * kerroin
-        console.log(rahaSek)
         rahaSek = rahaSek + 10;
     }
 }
@@ -67,7 +66,7 @@ function Bumper(){
     if(raha >= Bhinta){
         raha = raha - Bhinta;
         Bhinta = Bhinta * kerroin
-        rahaSek += 25;
+        rahaSek = rahaSek + 25;
     }
 }
 
@@ -75,7 +74,7 @@ function Tyres(){
     if(raha >= tHinta){
         raha = raha - tHinta;
         tHinta = tHinta * kerroin
-        rahaSek += 50;
+        rahaSek = rahaSek + 50;
     }
 }
 
@@ -83,14 +82,14 @@ function Diffuser(){
     if(raha >= dHinta){
         raha = raha - dHinta;
         dHinta = dHinta * kerroin
-        rahaSek = 250;
+        rahaSek = rahaSek + 250;
     }
 }
 
-function rims(){
+function Rims(){
     if(raha >= rhinta){
         raha = raha - rhinta;
         rhinta = rhinta * kerroin
-        rahaSek = 500;
+        rahaSek = rahaSek + 500;
     }
 }
